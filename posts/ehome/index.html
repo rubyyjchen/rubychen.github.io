@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>伊甸基金會愛心棧系統平台</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_2.png" />
+<meta property="og:title" content="伊甸基金會愛心棧系統平台" />
+<meta property="og:description" content="臺科大協助伊甸基金會建立愛心棧系統平台之USR計劃" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rubyyjchen.github.io/posts/ehome/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-05T08:06:25&#43;06:00" />
+<meta property="article:modified_time" content="2021-06-05T08:06:25&#43;06:00" />
+
+
+
+    
+    
+<meta name="description" content="臺科大協助伊甸基金會建立愛心棧系統平台之USR計劃" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-N0MEKZBD1R', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="/images/site/main-logo_huc0e215c988e7e92383d43f54054ec6fe_98420_42x0_resize_box_2.png" alt="Logo"> Ruby&#39;s Website</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/site/main-logo_huc0e215c988e7e92383d43f54054ec6fe_98420_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  <img src="/images/site/inverted-logo_hu0a96d0517804e52fd1c0c6e674d3a64a_74256_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">My Projects</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/packinfo/" title="PackInfo 年輕人的資訊站">PackInfo 年輕人的資訊站</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/ehome/" title="伊甸基金會愛心棧系統平台">伊甸基金會愛心棧系統平台</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/qbot/" title="合規新方法，QBot來幫忙">合規新方法，QBot來幫忙</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://rubyyjchen.github.io/posts/ehome/ehome.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/ruby_hu0ba74408bee4bf1590c7efbbe75c31cb_1041760_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Ruby Chen</h5>
+          <p>June 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>伊甸基金會愛心棧系統平台</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <h3 id="計劃簡介">計劃簡介</h3>
+<div class="alert alert-success">
+    <strong>此系統是將伊甸基金會原本的愛心棧人工處理流程全面E化，由臺科大團隊負責從零開始建置系統平台，包含系統架構、資料庫、LINE Bot及網頁等。</strong>
+</div>
+
+<hr>
+<h3 id="計畫期間">計畫期間</h3>
+<ul>
+<li>2020 年 8 月 至今</li>
+</ul>
+<hr>
+<h3 id="計畫挑戰">計畫挑戰</h3>
+<p>因伊甸單位並沒有開發過類似的大型資訊系統平台，因此除了程式開發的難度以外，針對系統的架構的設計及功能呈現也須透過雙方持續溝通，我們也常經由自身的開發經驗向伊甸單位提供對於系統或使用者操作上的建議等，在種種狀況下，此專案的開發相當不易且複雜。</p>
+<p>此專案還分為前台與後台系統，合計<mark>共三、四十種系統功能</mark>需開發，且有<mark>五種需不同功能、權限及使用平台的使用者角色</mark>，因此在這大型的系統開發初期，關於系統的建置及使用環境，也是由我們團隊經使用者需求的考量及本身的開發經驗，給予伊甸基金會建議。</p>
+<hr>
+<h3 id="負責內容">負責內容</h3>
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h4 id="前期">前期</h4>
+<p>系統架構設計的討論、前端網頁及LINE Bot功能開發及設計。<br></p>
+<div class="alert alert-warning">
+    <strong><p>主要使用</p>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Bootstrap</mark>進行開發</li>
+</ul>
+</strong>
+</div>
+
+        </div>
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h4 id="後期">後期</h4>
+<p>代表台科大開發團隊擔任與伊甸基金會的聯絡窗口</p>
+<div class="alert alert-primary">
+    <strong>對內:<br>
+開發團隊的進度控管與協助系統的設計與調整</p>
+對外:<br>
+與伊甸基金會窗口進行溝通聯繫</strong>
+</div>
+
+        </div>
+    
+       <div class="col col-sm-12 col-lg-4">
+            <h4 id="個人成果">個人成果</h4>
+<div class="alert alert-danger">
+    <strong>1.建置兩個 LINE Bot 提供各自功能</p>
+2.開發約三十個網頁（前端畫面設計與撰寫）</strong>
+</div>
+<h4 id="整體成果">整體成果</h4>
+<p>五個LINE Bot、一個後台系統、四十多種功能
+        </div>
+    
+</div>
+
+<hr>
+<h3 id="計畫成果與活動">計畫成果與活動</h3>
+<h4 id="系統畫面">系統畫面</h4>
+<img src="/posts/ehome/Stack3.png"
+    
+        alt="A boat at the sea"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h4 id="愛心棧記者會">愛心棧記者會</h4>
+<p>
+<img src="/posts/ehome/ehome.jpg"
+    
+        alt="愛心棧記者會"
+    
+    
+        width="600"
+    
+    
+        height="450"
+    
+    
+    
+        class="center"
+    
+>
+
+</p>
+<img src="/posts/ehome/Stack4.png"
+    
+        alt="愛心棧記者會"
+    
+    
+        width="600"
+    
+    
+        height="400"
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+
+        </div>
+
+        
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#計劃簡介">計劃簡介</a></li>
+        <li><a href="#計畫期間">計畫期間</a></li>
+        <li><a href="#計畫挑戰">計畫挑戰</a></li>
+        <li><a href="#負責內容">負責內容</a></li>
+        <li><a href="#計畫成果與活動">計畫成果與活動</a>
+          <ul>
+            <li><a href="#系統畫面">系統畫面</a></li>
+            <li><a href="#愛心棧記者會">愛心棧記者會</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">My Project</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>rubyyjchen0102@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>0977419036</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+              
+              <form
+                action="https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;amp;id=094a24c76e"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate >
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="mce-EMAIL"
+                    name="EMAIL"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We&#39;ll never share your email with anyone else.</small
+                  >
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

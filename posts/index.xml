@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ruby&#39;s Website</title>
+    <title>My Projects on  Ruby&#39;s Website</title>
     <link>https://rubyyjchen.github.io/posts/</link>
-    <description>Recent content in Posts on Ruby&#39;s Website</description>
+    <description>Recent content in My Projects on  Ruby&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://rubyyjchen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://rubyyjchen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://rubyyjchen.github.io/search/</link>
@@ -177,35 +177,41 @@ Initial setup Search depends on additional output content type of JSON in config
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>https://rubyyjchen.github.io/posts/introduction/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <title>伊甸基金會愛心棧系統平台</title>
+      <link>https://rubyyjchen.github.io/posts/ehome/</link>
+      <pubDate>Sat, 05 Jun 2021 08:06:25 +0600</pubDate>
       
-      <guid>https://rubyyjchen.github.io/posts/introduction/</guid>
-      <description>Greeting! This is an introduction post. This post tests the followings:
- Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file.  </description>
+      <guid>https://rubyyjchen.github.io/posts/ehome/</guid>
+      <description>計劃簡介 此系統是將伊甸基金會原本的愛心棧人工處理流程全面E化，由臺科大團隊負責從零開始建置系統平台，包含系統架構、資料庫、LINE Bot及網頁等。   計畫期間  2020 年 8 月 至今   計畫挑戰 因伊甸單位並沒有開發過類似的大型資訊系統平台，因此除了程式開發的難度以外，針對系統的架構的設計及功能呈現也須透過雙方持續溝通，我們也常經由自身的開發經驗向伊甸單位提供對於系統或使用者操作上的建議等，在種種狀況下，此專案的開發相當不易且複雜。
+此專案還分為前台與後台系統，合計共三、四十種系統功能需開發，且有五種需不同功能、權限及使用平台的使用者角色，因此在這大型的系統開發初期，關於系統的建置及使用環境，也是由我們團隊經使用者需求的考量及本身的開發經驗，給予伊甸基金會建議。
+ 負責內容 前期 系統架構設計的討論、前端網頁及LINE Bot功能開發及設計。
+主要使用
+ HTML CSS Javascript Bootstrap進行開發     後期 代表台科大開發團隊擔任與伊甸基金會的聯絡窗口
+對內:
+開發團隊的進度控管與協助系統的設計與調整
+對外:
+與伊甸基金會窗口進行溝通聯繫   個人成果 1.建置兩個 LINE Bot 提供各自功能
+2.開發約三十個網頁（前端畫面設計與撰寫）  整體成果 五個LINE Bot、一個後台系統、四十多種功能    計畫成果與活動 系統畫面  愛心棧記者會   </description>
     </item>
     
     <item>
-      <title>Markdown Samples</title>
-      <link>https://rubyyjchen.github.io/posts/markdown-sample/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <title>PackInfo 年輕人的資訊站</title>
+      <link>https://rubyyjchen.github.io/posts/packinfo/</link>
+      <pubDate>Thu, 14 Jan 2021 14:00:00 +0600</pubDate>
       
-      <guid>https://rubyyjchen.github.io/posts/markdown-sample/</guid>
-      <description>This is a sample post intended to test the followings:
- A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering.   Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
+      <guid>https://rubyyjchen.github.io/posts/packinfo/</guid>
+      <description>作品簡介 資訊的發達使我們透過網路獲取眾多資訊，但常需要在不同網頁搜尋或下載各種應用程式，因此我選擇開發 LINE聊天機器人，使用 Python 進行爬蟲及串接 API，將年輕人常需要的功能整合，讓派克回答您所有問題!   發想動機 資訊發達的現在，我們往往需要在同一時間中，於不同網站及APP之間尋找所需的資訊，希望能幫省去這些時間，只需要打開派克PACKINFO-年輕人的行動資訊站，整合理財和生活娛樂資訊，使用聊天機器人自動回答您的問題
+ 功能介紹 理財資訊 即時匯率  提供最即時的交叉匯率表  即時股價  即時股價、漲(跌)幅、成交量、K線圖 最多可一次顯示三檔股票資料  指數查詢  即時大盤加權指數 加入示警功能，輸入條件自動推播  &amp;ndash;&amp;gt;
+  --  生活娛樂 天氣查詢  單一縣市逐六小時的降雨機率、溫度及體感溫度區間  電影推薦  現正熱映票房排名以及綜合評分 即將上映電影上映日期及討論度  熱門美食  提供單一區域營業中的人氣餐廳     作品成果    </description>
     </item>
     
     <item>
-      <title>Shortcodes Samples</title>
-      <link>https://rubyyjchen.github.io/posts/shortcodes/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <title>合規新方法，QBot來幫忙</title>
+      <link>https://rubyyjchen.github.io/posts/qbot/</link>
+      <pubDate>Tue, 10 Dec 2019 09:00:00 +0600</pubDate>
       
-      <guid>https://rubyyjchen.github.io/posts/shortcodes/</guid>
-      <description>This is a sample post intended to test the followings:
- Default hero image. Different shortcodes.  Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;.  This is sample alert with type=&amp;quot;danger&amp;quot;.  This is sample alert with type=&amp;quot;warning&amp;quot;.  This is sample alert with type=&amp;quot;info&amp;quot;.  This is sample alert with type=&amp;quot;dark&amp;quot;.  This is sample alert with type=&amp;quot;primary&amp;quot;.  This is sample alert with type=&amp;quot;secondary&amp;quot;.</description>
+      <guid>https://rubyyjchen.github.io/posts/qbot/</guid>
+      <description>於經濟部工業局跨域數位人才加速躍升計畫(DIGI+)發表，與大同世界科技另外三名實習生共同參與  專題摘要  此專題成果應用於法遵部門向企業IT人員稽查合規之情境，結合Splunk軟體進行主機監控及異常偵測，即時使用LINE發布告警，讓Qbot機器人透過答覆流程處理異常事件 本專題的目的在設計支援腳本流程的文字機器人(QBot) 服務，有別於一般簡單交談的對話式機器人，QBot支援流程式對話的定義。需開發腳本流程的編輯工具，並產生腳本的描述檔案(JSON)，使得QBot能夠根據腳本內容，引導使用者參與流程，例如訂票、訂餐等無法透過簡單對話就完成的業務邏輯，皆可以透過腳本的引導來實現，使得用戶可以透過與機器人的會話取得服務。   負責內容 Splunk儀表板開發  成果發表簡報製作  於展場解說專題成果   作品成果    </description>
     </item>
     
   </channel>
