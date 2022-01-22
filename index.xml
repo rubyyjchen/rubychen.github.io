@@ -22,19 +22,19 @@ msg := &amp;#34;Hello&amp;#34;     Constants const Phi = 1.618     </description
     
     <item>
       <title>Go বেসিক</title>
-      <link>https://rubyyjchen.github.io/notes/go/basic/_index.bn/</link>
+      <link>https://rubyyjchen.github.io/notes/go/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rubyyjchen.github.io/notes/go/basic/_index.bn/</guid>
+      <guid>https://rubyyjchen.github.io/notes/go/basic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>অ্যাডভান্সড</title>
-      <link>https://rubyyjchen.github.io/notes/go/advanced/_index.bn/</link>
+      <link>https://rubyyjchen.github.io/notes/go/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rubyyjchen.github.io/notes/go/advanced/_index.bn/</guid>
+      <guid>https://rubyyjchen.github.io/notes/go/advanced/</guid>
       <description></description>
     </item>
     
@@ -442,19 +442,19 @@ Initial setup Search depends on additional output content type of JSON in config
     
     <item>
       <title>নোট সমূহ</title>
-      <link>https://rubyyjchen.github.io/notes/_index.bn/</link>
+      <link>https://rubyyjchen.github.io/notes/</link>
       <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
       
-      <guid>https://rubyyjchen.github.io/notes/_index.bn/</guid>
+      <guid>https://rubyyjchen.github.io/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go এর নোট সমূহ</title>
-      <link>https://rubyyjchen.github.io/notes/go/_index.bn/</link>
+      <link>https://rubyyjchen.github.io/notes/go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rubyyjchen.github.io/notes/go/_index.bn/</guid>
+      <guid>https://rubyyjchen.github.io/notes/go/</guid>
       <description>Go Notes </description>
     </item>
     
@@ -473,10 +473,10 @@ Initial setup Search depends on additional output content type of JSON in config
     
     <item>
       <title>ব্যাশের নোট সমূহ</title>
-      <link>https://rubyyjchen.github.io/notes/bash/_index.bn/</link>
+      <link>https://rubyyjchen.github.io/notes/bash/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rubyyjchen.github.io/notes/bash/_index.bn/</guid>
+      <guid>https://rubyyjchen.github.io/notes/bash/</guid>
       <description>Bash Notes </description>
     </item>
     
